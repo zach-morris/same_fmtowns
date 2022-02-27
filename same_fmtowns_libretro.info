@@ -1,0 +1,38 @@
+# Software Information
+display_name = "Fujitsu - FM Towns (SAME FM Towns)"
+authors = "MAMEdev"
+supported_extensions = "chd|iso|img|cue"
+corename = "SAME FM Towns (Git)"
+license = "GPLv2+"
+permissions = ""
+display_version = "Git"
+categories = "Emulator"
+
+# Hardware Information
+manufacturer = "Fujitsu"
+systemname = "FM Towns"
+systemid = "fmtowns"
+
+# Libretro Features
+supports_no_game = "false"
+database = "MAME"
+savestate = "false"
+savestate_features = "null"
+cheats = "false"
+input_descriptors = "false"
+memory_descriptors = "false"
+libretro_saves = "false"
+core_options = "true"
+core_options_version = "1.0"
+hw_render = "false"
+disk_control = "false"
+database_match_archive_member = "true"
+
+# BIOS/Firmware
+firmware_count = 1
+
+firmware0_desc = "same_fmtowns/bios/fmtowns.zip"
+firmware0_path = "same_fmtowns/bios/fmtowns.zip"
+firmware0_opt = "false"
+
+description = "SAME FM Towns is a S(ingle) A(rcade) M(achine) E(mulator) for libretro, forked from MAME libretro, which is in turn a fork of MAME. It includes only the Fujitsu FM Towns driver, and simplifies the loading of CD content to provide a 'plug and play' experience."
